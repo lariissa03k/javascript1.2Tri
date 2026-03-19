@@ -14,7 +14,29 @@ soma(variavel,nome)
 function calculadora(ari,a,b){
     switch(ari){
         case ´+':
-            resultado = a + b 
+            resultado = a + b;
             breack;
             case '-':
+                resultado = a-b;
+                breack;
+            case '*';
+            resultado = a * b;
+            breack;
+        case'/':
+         resultado = a / b;
+      breack;
+      default:
+        resultado = 'Operador inválido';
+        
+        
+
+
+
+
+    ]
+    return resultado
+
+}
+
+
                 
